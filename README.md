@@ -9,7 +9,7 @@ in the service.
 # Note
 This works only if the client and service are in the same application and process, which is most common. For example, this would work well for a music application that needs to bind an activity to its own service that's playing music in the background.
 
-Here's how to set it up:
+# Here's how to set it up:
 
 1.  In your service, create an instance of Binder that does one of the following:
 
